@@ -1,0 +1,19 @@
+code {
+  font-size:24px;
+}
+
+.content {
+  color: black;
+  font-family: helvetica, arial;
+}
+h1, h2 {
+  color: rgb(79, 180, 226);
+  font-family: Georgia;
+}
+.content::after {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  z-index:-100;
+  content: url(fb-profile.png);
+}
